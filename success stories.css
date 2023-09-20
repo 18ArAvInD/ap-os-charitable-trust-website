@@ -1,0 +1,50 @@
+/* Style the success stories section */
+#success-stories {
+    background: linear-gradient(to bottom, #f7f7f7, #e0e0e0);
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style the story containers */
+.success-story {
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: calc(50% - 20px);
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* Hover effect for story containers */
+.success-story:hover {
+    transform: translateY(-5px);
+}
+
+/* Style the story titles */
+.success-story h3 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style the story content */
+.success-story p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Style the images */
+.success-story img {
+    max-width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.success-story h2{
+    text-align: center;
+    color: gold;
+}
